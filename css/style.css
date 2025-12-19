@@ -1,0 +1,7 @@
+body{font-family:Arial;background:#f4f4f4;margin:0}
+header{background:#222;color:white;padding:1rem;text-align:center}
+.products{display:flex;gap:20px;justify-content:center;padding:20px}
+.product{background:white;padding:10px;transition:0.3s}
+.product:hover{transform:scale(1.05)}
+button{background:black;color:white;padding:8px;border:none}
+.dark-mode{background:#121212;color:white}

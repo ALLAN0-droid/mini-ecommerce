@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>UrbanThreads | Products</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+<h1>UrbanThreads</h1>
+<p id="greeting"></p>
+<nav>
+<a href="index.html">Products</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+<button id="themeToggle">🌙</button>
+</nav>
+<div class="cart">🛒 Cart: <span id="cartCount">0</span></div>
+</header>
+
+<main>
+<section class="products">
+<article class="product">
+<img src="images/shirt.jpg">
+<h3>Classic T-Shirt</h3>
+<p>KES 1,200</p>
+<button onclick="addToCart()">Add to Cart</button>
+</article>
+
+<article class="product">
+<img src="images/hoodie.jpg">
+<h3>Urban Hoodie</h3>
+<p>KES 2,800</p>
+<button onclick="addToCart()">Add to Cart</button>
+</article>
+
+<article class="product">
+<img src="images/shoes.jpg">
+<h3>Street Sneakers</h3>
+<p>KES 4,500</p>
+<button onclick="addToCart()">Add to Cart</button>
+</article>
+</section>
+</main>
+
+<footer><p>&copy; 2025 UrbanThreads</p></footer>
+<script src="js/script.js"></script>
+</body>
+</html>
